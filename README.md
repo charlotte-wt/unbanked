@@ -2,7 +2,7 @@
 
 ## how to run the web application
 
-1. create a `.env` file in the server folder.
+1. create a `.env` file in the `server` folder.
 
 2. add the following lines to the '.env' file
 ```
