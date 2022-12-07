@@ -12,6 +12,7 @@ const NavIcons = () => {
       <Link to="../home">
         <img src={Home} alt="" />
       </Link>
+
       <UilSetting />
       <img src={Noti} alt="" />
       <Link to="../chat">
