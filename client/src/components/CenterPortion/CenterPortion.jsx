@@ -16,7 +16,15 @@ export default function CenterPortion() {
           // buttonSize='btn--large'
           onClick={() => navigate("/chat")}
         >
-          CHAT HERE NOW
+          CHAT HERE NOW 
+        </button>
+        <button
+          className='button ps-button'
+          // buttonStyle='btn--outline'
+          // buttonSize='btn--large'
+          onClick={() => navigate("/remit")}
+        >
+          REMIT MONEY 
         </button>
         {/* <Button
           className='btns'

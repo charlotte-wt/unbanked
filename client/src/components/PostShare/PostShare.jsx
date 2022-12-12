@@ -72,7 +72,7 @@ const PostShare = () => {
       <div>
         <input
           type="text"
-          placeholder="What's happening?"
+          placeholder="Ask your questions here!"
           required
           ref={desc}
         />
@@ -99,7 +99,7 @@ const PostShare = () => {
             Schedule
           </div>
           <button
-            className="button ps-button"
+            className="button post-button"
             onClick={handleUpload}
             disabled={loading}
           >
