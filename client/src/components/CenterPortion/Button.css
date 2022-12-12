@@ -1,0 +1,98 @@
+:root {
+    --primary: #fff;
+  }
+  
+  .btn {
+
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+
+  }
+  
+  .btn--primary {
+    background-color: var(--primary);
+    color: #242424;
+    border: none;
+  }
+
+  .btn--addfriend {
+    background-color: lightcoral;
+    color: #FFF1FA;
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .btn--addevent {
+    background-color: lightcoral;
+    color: #FFF1FA;
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .btn--backevent {
+    background-color: lightcoral;
+    color: #242424;
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .btn--pink {
+    background-color: lightcoral;
+    color: #fff;
+    border: none;
+  
+  }
+  
+  .btn--outline {
+    background-color: #f59535;
+    color: #fff;
+    padding: 8px 20px;
+    border: 3px solid #f59535;
+    transition: all 0.3s ease-out;
+    border-radius:1rem;
+  }
+  
+  .btn--medium {
+    padding: 0.2rem 1rem;
+    font-size: 0.8rem;
+  }
+  
+  .btn--large {
+    padding: 0.6rem 2rem;
+    font-size: 2rem;
+  }
+
+  .btn--span {
+    padding: 0.5vw 1vw;
+    font-size: 0.8vw;
+    display: block;
+    border-radius: 0.6rem;
+    width: 100%;
+  }
+  
+  .btn--primary:hover,
+  .btn--outline:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #f59535;
+    transition: 250ms;
+  }
+  
+  .btn--pink:hover,
+  .btn--addfriend:hover,
+  .btn--backevent:hover,
+  .btn--addevent:hover {
+    transition: all 0.3s ease-out;
+    filter: brightness(0.9);
+    transition: 250ms;
+    color: #fff;
+  }
