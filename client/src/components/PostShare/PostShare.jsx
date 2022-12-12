@@ -94,7 +94,7 @@ const PostShare = () => {
             <UilLocationPoint />
             Location
           </div>
-          <div className="option" style={{ color: "var(--shedule)" }}>
+          <div className="option" style={{ color: "var(--schedule)" }}>
             <UilSchedule />
             Schedule
           </div>
