@@ -17,5 +17,5 @@ JWTKEY="MERN"
 
 5. Open a 3rd shell, `cd socket`, `npm install`, then `npm run start`.
 
-
+![alt text](https://github.com/charlotte-wt/unbanked/blob/master/appImages/Login.png?raw=true)
 
