@@ -22,7 +22,7 @@ JWTKEY="MERN"
 5. Open a 3rd shell, `cd socket`, `npm install`, then `npm run start`.
 
 
-# unbanked 
+## Application View
 
 An application aimed at connecting unbanked individuals with finance professionals, for the unbanked individuals to seek professional help on their journey to becoming more financially-savvy.
 
